@@ -7,8 +7,8 @@
 
 <body style="padding:50px">
     <div>
-        <input ngModel="messageTxt" size="30"/><br/><br/>
-        <h1> Everybody's saying {{ messageTxt }} </h1>
+        <input (keyup)="onKey($event)" size="30"/><br/><br/>
+        <h1> Everybody's saying {{messageTxt}} </h1>
     </div>
 </body>
 

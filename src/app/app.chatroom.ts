@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.chatroom.css']
 })
 export class AppChatroom {
-    title = 'Chat Room';
 }

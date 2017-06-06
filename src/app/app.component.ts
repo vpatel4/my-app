@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My First Angular App';
+  messageTxt = "Blank";
+
+  onKey(event: any)
+  {
+      this.messageTxt = event.target.value;
+  }
 }
