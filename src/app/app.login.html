@@ -1,0 +1,8 @@
+<b> Username:  </b>
+<input #box
+       (keyup.enter)="onEnter(box.value)"
+       (blur)="update(box.value)"
+       size="30"/>
+<button (click)="onEnter(box.value)">Login</button>
+
+<!-- <h1> User name is {{userName}} </h1> -->

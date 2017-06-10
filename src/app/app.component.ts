@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Chat Server';
-  messageTxt = "Blank";
-
-  onKey(event: any)
-  {
-      this.messageTxt = event.target.value;
-  }
 }
